@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <link rel="stylesheet" href="./style.css">
+          <link rel="stylesheet" href="./styles/header.css">
+
+          <!-- <script src="./script.js"></script> -->
+          <script src="./scripts/language_handler.js"></script>
+
+          <title>KYRYLO - Portfolio</title>
+     </head>
+
+     <header>
+          <nav>
+               <ul>
+                    <li><span class="ua">Домашня</span><span class="en">Home</span></li>
+                    <li><span class="ua">Портфоліо</span><span class="en">Portfolio</span></li>
+                    <li><span class="ua">Зв'язок</span><span class="en">Contact</span></li>
+                    <li>
+                         <span id="language-selector">
+                              <span class="en lang-option"><img src="./media/langs_icons/ua.png" height="13px" alt="UA Flag"> Українською</span>
+                              <span class="ua lang-option"><img src="./media/langs_icons/en.png" height="13px" alt="EN Flag"> English</span>
+                         </span>
+                    </li>
+               </ul>
+          </nav>
+      </header>
+      
+
+     <body>
+          
+          
+
+     </body>
+
+     <footer>
+          <a id="footerLink" href="#">&copy; 2019-2024, <span class="ua">Біцай Кирило</span><span class="en">Bitsai Kyrylo</span>. <span class="ua">Усі права захищені.</span><span class="en">All rights is reserved.</span></a>
+      </footer>
+
+</html>
+
+<script>
+     var footerLink = document.getElementById("footerLink")
+     footerLink.onclick = function(){
+          window.open("https://github.com/KYRYLO-UA/KYRYLO-Portfolio/blob/main/LICENSE")
+     }
+</script>

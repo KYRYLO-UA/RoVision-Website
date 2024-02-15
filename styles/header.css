@@ -1,0 +1,25 @@
+/* Style for the header */
+header {
+     background-color: #333; /* Background color */
+     color: #fff; /* Text color */
+     padding: 20px; /* Padding around the content */
+     justify-content: center;
+     align-items: center;
+     user-select: none;
+}
+ 
+/* Style for the navigation */
+nav ul {
+     list-style-type: none; /* Remove bullet points */
+     padding: 0;
+}
+ 
+nav ul li {
+     display: inline; /* Display items horizontally */
+     margin-right: 20px; /* Spacing between items */
+}
+
+/* Language Selector Styles */
+#language-selector {
+     cursor: pointer;
+}

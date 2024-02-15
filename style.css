@@ -1,0 +1,41 @@
+body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     /* height: 100vh; */
+     /* display: flex; */
+     /* justify-content: center;
+     align-items: center; */
+}
+
+
+
+footer {
+     background-color: #333;
+     color: #fff;
+     padding: 20px 0;
+     text-align: center;
+     width: 100vw;
+     font-weight: normal;
+     font-style: italic;
+ }
+
+footer > a {
+     text-decoration: none;
+     font-size: 14px;
+     transition: all .2s;
+}
+footer > a:link {
+     color: white
+}
+footer > a:visited {
+     color: white;
+     text-decoration: none;
+}
+footer > a:hover {
+     color: rgb(185, 204, 241)
+}
+footer > a:active {
+     color: rgb(224, 168, 168)
+}
+
